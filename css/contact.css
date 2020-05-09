@@ -1,0 +1,16 @@
+.contact {
+    border-collapse: collapse;
+}
+.contact tr {
+  height: 7rem;
+}
+.contact th {
+  width: 150px;
+  text-align: right:
+}
+
+/*
+.contact input {
+  width: 480px;
+}
+*/
