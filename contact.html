@@ -37,21 +37,23 @@
           <form action="" method="post">
             <table class="contact">
               <tr>
-                <th><label for="yourname">お名前</th>
-                <td><input id="yourname" type="text" name="yourname"></td>
+                <th><label for="yourname">お名前</label></th>
+                <td><input id="yourname" class="caption" type="text" name="yourname"></td>
               </tr>
               <tr>
                 <th><label for="email">メールアドレス</label></th>
-                <td><input id="email" type="email"></td>
+                <td><input id="email" class="caption" type="email"></td>
               </tr>
               <tr>
                 <th>性別</th>
-                <td><input id="male" type="radio" name="sex"><label for="male">男</label></td>
-                <td><input id="female" type="radio" name="sex"><label for="female">女</label></td>
+                <td>
+                  <input id="male" class="select"type="radio" name="sex"><label for="male">男</label>
+                  <input id="female" class="select" type="radio" name="sex"><label for="female">女</label>
+                </td>
               </tr>
               <tr>
                 <th><label for="detail">お問い合わせ内容</label></th>
-                <td><textarea id="detail" name="detail"></textarea></td>
+                <td><textarea id="detail" class="caption" name="detail"></textarea></td>
               </tr>
             </table>
             <input type="submit" value="送信">
